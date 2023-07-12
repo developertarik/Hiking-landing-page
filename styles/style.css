@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
+ body{
+    background-color: black;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:white;
+ }
+ .navbar{
+    width: 200px;
+    display: flex;
+    align-items: center;
+ }
+a{
+    color: white;
+    display: flex;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    font-size: 23px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+}
+.adventure{
+    font-size: 7em;
+}
+.mountain{
+    font-size: 2em;
+
+}
+.main{
+    display:flex;
+    justify-content: center;
+    gap:100px;
+}
+.img-mms{
+    width: 90%;
+}
