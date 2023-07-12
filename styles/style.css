@@ -5,6 +5,9 @@
     font-family: 'Quattrocento Sans', sans-serif;
     color:white;
  }
+ .container{
+    padding:25px;
+ }
  .navbar{
     width: 200px;
     display: flex;
@@ -21,6 +24,7 @@ a{
 }
 a:hover{
     background-color: white;
+    color:black;
 }
 .adventure{
     font-size: 7em;
@@ -36,4 +40,19 @@ a:hover{
 }
 .img-mms{
     width: 90%;
+}
+.explore{
+    background-color: rgb(124, 124, 124);
+    color:white;
+    border: none;
+    width:200px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.explore:hover{
+    background-color: white;
+    color:black;
+    
 }
